@@ -5,20 +5,15 @@ body {
   margin: 0;
 }
 
-.container {
-  max-width: 940px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 section {
   padding: 93px;
 }
 
 p {
+  line-height: 1.5em;
   font-size: 14px;
-  padding: 0;
   margin: 0;
+  margin-bottom: 1.5em;
 }
 
 div,
@@ -51,6 +46,22 @@ li {
   display: block;
   padding: 0;
   margin: 0;
+}
+
+.container {
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 100px;
+  padding: 19px 46px;
+  text-align: center;
+  font-weight: bold;
 }
 
 a,
@@ -173,13 +184,7 @@ a:active {
 }
 
 .main-content__btn {
-  display: inline-block;
-  border: 1px solid #fff;
-  color: #fff;
-  border-radius: 100px;
-  padding: 19px 46px;
-  text-align: center;
-  margin-top: 42px;
+  margin-top: 35px;
 }
 
 .balls {
@@ -213,4 +218,39 @@ a:active {
 
 .lottery__text {
   color: #b0b2b3;
+  margin-bottom: 0px;
 }
+
+/*      THIRD SECTION    */
+
+.wrapper {
+  margin-top: 52px;
+}
+
+.wrapper__title {
+  margin-bottom: 30px;
+  font-weight: 400;
+  color: #8707b3;
+}
+
+.wrapper__item {
+  max-width: 412px;
+  width: 100%;
+}
+
+.wrapper__item:last-child {
+  max-width: 400px;
+  width: 100%;
+}
+
+.wrapper_text {
+  color: #606060;
+}
+
+.wrapper__btn {
+  margin-top: 15px;
+  color: #ff7300;
+  border: 1px solid #ff7300;
+}
+
+/*      FOOTER    */
