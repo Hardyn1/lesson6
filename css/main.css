@@ -11,6 +11,16 @@ body {
   margin: 0 auto;
 }
 
+section {
+  padding: 93px;
+}
+
+p {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
 div,
 a,
 button,
@@ -20,22 +30,20 @@ span {
   box-sizing: border-box;
 }
 
-a,
-a:hover,
-a:active {
-  text-decoration: none;
-  transition: all 0.5s ease;
-}
-
 h1,
 h2,
 h3,
-h4,
-p {
+h4 {
   padding: 0;
   margin: 0;
   text-transform: uppercase;
   line-height: 1.4em;
+}
+
+h2 {
+  text-align: center;
+  color: #8707b3;
+  font-weight: 400;
 }
 
 ul,
@@ -43,6 +51,13 @@ li {
   display: block;
   padding: 0;
   margin: 0;
+}
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+  transition: all 0.5s ease;
 }
 
 .d-flex {
@@ -152,6 +167,7 @@ li {
 }
 
 .main-content__text {
+  margin-top: 18px;
   text-transform: uppercase;
   letter-spacing: 0.26em;
 }
@@ -168,4 +184,33 @@ li {
 
 .balls {
   margin-right: 40px;
+}
+
+/*      SECOND SECTION    */
+
+.lottery {
+  margin-top: 77px;
+}
+
+.lottery__item {
+  align-items: center;
+}
+
+.lottery__icon {
+  width: 65px;
+  height: 65px;
+  background: #e82c9f url("../img/dollar.png") center center no-repeat;
+  border-radius: 50%;
+  box-shadow: 9px 9px 22px;
+  margin-right: 21px;
+}
+
+.lottery__title {
+  margin-top: -2px;
+  text-transform: none;
+  color: #e82c9f;
+}
+
+.lottery__text {
+  color: #b0b2b3;
 }
