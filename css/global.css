@@ -1,0 +1,103 @@
+/*      MAIN SETTINGS    */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  padding: 93px 0 53px;
+}
+
+p {
+  line-height: 1.5em;
+  font-size: 14px;
+  margin: 0;
+}
+
+div,
+a,
+button,
+p,
+input,
+span {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 1.4em;
+}
+
+h2 {
+  text-align: center;
+  color: #8707b3;
+  font-weight: 400;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.button {
+  display: inline-block;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 100px;
+  padding: 19px 46px;
+  text-align: center;
+  font-weight: bold;
+}
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 940px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 740px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 90%;
+  }
+}
